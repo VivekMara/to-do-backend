@@ -4,9 +4,8 @@
   "description": "backend for to-do app",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js",
     "dev": "nodemon index.js",
-    "build": "node index.js"
+    "start": "node index.js"
   },
   "type": "module",
   "author": "darthman",
