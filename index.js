@@ -32,6 +32,9 @@ dbConnect();
 
 
 //routes
+app.get("/",(req,res)=>{
+    res.send("Hello, darthman!!")
+})
 //to add task
 app.post("/api/addtask", async (req,res) => {
     const {username,task} = req.body;
