@@ -131,3 +131,5 @@ dist
 
 bin
 db
+__pycache__
+env
