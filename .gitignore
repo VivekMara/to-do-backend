@@ -133,3 +133,4 @@ bin
 db
 __pycache__
 env
+todos.db
